@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWidget</class>
+ <widget class="QWidget" name="MainWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>848</width>
+    <height>588</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>库存管理系统1.0</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../icons/incon1.qrc">
+    <normaloff>:/new/prefix1/icon1 (1).png</normaloff>:/new/prefix1/icon1 (1).png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(170, 255, 255);</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget_listdata">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>90</y>
+     <width>751</width>
+     <height>471</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_addGoods">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>50</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 170, 127);</string>
+   </property>
+   <property name="text">
+    <string>新增商品</string>
+   </property>
+   <property name="icon">
+    <iconset resource="../icons2.qrc">
+     <normaloff>:/new/prefix1/incos2/2 (7).png</normaloff>:/new/prefix1/incos2/2 (7).png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_DeleteGoods">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>50</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 170, 127);</string>
+   </property>
+   <property name="text">
+    <string>删除商品</string>
+   </property>
+   <property name="icon">
+    <iconset resource="../icons2.qrc">
+     <normaloff>:/new/prefix1/incos2/2 (7).png</normaloff>:/new/prefix1/incos2/2 (7).png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_exportdata">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>50</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 170, 127);</string>
+   </property>
+   <property name="text">
+    <string>导出数据</string>
+   </property>
+   <property name="icon">
+    <iconset resource="../icons2.qrc">
+     <normaloff>:/new/prefix1/incos2/2 (7).png</normaloff>:/new/prefix1/incos2/2 (7).png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_GoodsWareHouse">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>50</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 170, 127);</string>
+   </property>
+   <property name="text">
+    <string>商品入库</string>
+   </property>
+   <property name="icon">
+    <iconset resource="../icons2.qrc">
+     <normaloff>:/new/prefix1/incos2/2 (7).png</normaloff>:/new/prefix1/incos2/2 (7).png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_GoodsDeliver">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>50</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 170, 127);</string>
+   </property>
+   <property name="text">
+    <string>商品出库</string>
+   </property>
+   <property name="icon">
+    <iconset resource="../icons2.qrc">
+     <normaloff>:/new/prefix1/incos2/2 (7).png</normaloff>:/new/prefix1/incos2/2 (7).png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_DataSelect">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>10</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:rgb(0, 0, 0);
+background-color: rgb(250, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>数据查询</string>
+   </property>
+   <property name="icon">
+    <iconset resource="../icons2.qrc">
+     <normaloff>:/new/prefix1/incos2/2 (1).png</normaloff>:/new/prefix1/incos2/2 (1).png</iconset>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_GoodsNumber">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>10</y>
+     <width>113</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>378</x>
+     <y>10</y>
+     <width>161</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>新宋体</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:rgb(0, 0, 255);
+alternate-background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(255, 235, 235, 206), stop:0.35 rgba(255, 188, 188, 80), stop:0.4 rgba(255, 162, 162, 80), stop:0.425 rgba(255, 132, 132, 156), stop:0.44 rgba(252, 128, 128, 80), stop:1 rgba(255, 255, 255, 0));</string>
+   </property>
+   <property name="text">
+    <string>根据商品编号实现查询：</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_DataSummary">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>50</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 170, 127);</string>
+   </property>
+   <property name="text">
+    <string>汇总数据</string>
+   </property>
+   <property name="icon">
+    <iconset resource="../icons2.qrc">
+     <normaloff>:/new/prefix1/incos2/2 (7).png</normaloff>:/new/prefix1/incos2/2 (7).png</iconset>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../icons/incon1.qrc"/>
+  <include location="../icons2.qrc"/>
+ </resources>
+ <connections/>
+</ui>
